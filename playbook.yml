@@ -1,0 +1,10 @@
+---
+
+-   hosts: node1
+    tasks:
+        -   name: make visiting card
+            file:
+                path: tmp_visiting_card
+                state: touch
+
+#// Here is VM back up position (VM-1) =======================
